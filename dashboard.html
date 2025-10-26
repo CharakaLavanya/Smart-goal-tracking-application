@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Smart Goal Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SMART Goal Tracker</h1>
+
+    <form id="goalForm">
+      <input type="text" id="goalTitle" placeholder="Goal Title" required />
+      <input type="text" id="goalDesc" placeholder="Goal Description" />
+      <button type="submit">Add Goal</button>
+    </form>
+
+    <div class="goal-list" id="goalList"></div>
+
+    <button class="logout-btn" onclick="logoutUser()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
